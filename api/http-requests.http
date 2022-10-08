@@ -1,0 +1,27 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/games?gameTime=2022-11-21T00%3A00%3A00.000Z
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "lucaastv",
+  "name": "Lucas",
+  "email": "lucas.teixeira34@gmail.com",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:3000/hunches
+Content-Type: application/json
+
+{
+  "gameId": "286633b3-6672-4037-83c2-546b6c8b76ad",
+  "homeTeamScore": 1,
+  "awayTeamScore": 1
+}
