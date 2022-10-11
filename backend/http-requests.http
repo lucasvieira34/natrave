@@ -1,0 +1,12 @@
+GET http://localhost:3000/user
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "username": "teste-omit",
+  "name": "NestJS",
+  "email": "teste-nestpasomis@gmail.com",
+  "password": "123456"
+}
